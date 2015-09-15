@@ -1,0 +1,53 @@
+<refentry id="package.default.default.humanbaseservice.sethost">
+ <refnamediv>
+  <refname>
+   <function>HumanBaseService::setHost</function>
+  </refname>
+  <refpurpose>setHost</refpurpose>
+ </refnamediv>
+ <refsynopsisdiv>
+  <funcsynopsis>
+   <funcsynopsisinfo>require_once &apos;/human_gateway_client_api/service/base/HumanBaseService.php&apos;;</funcsynopsisinfo>
+   <funcprototype>
+    <funcdef>
+     void
+     <function>HumanBaseService::setHost</function>
+    </funcdef>
+    <paramdef>
+     <parameter>$host</parameter>
+    </paramdef>
+   </funcprototype>
+  </funcsynopsis>
+ </refsynopsisdiv>
+ <refsect1 id="package.default.default.humanbaseservice.sethost.desc">
+  &title.desc;
+  &notdocumented;
+</refsect1>
+ <refsect1 id="package.default.default.humanbaseservice.sethost.param">
+  &title.param;
+  <para>
+   <variablelist>
+    <varlistentry>
+     <term>
+      <type />
+      <parameter>$host</parameter>
+     </term>
+     <listitem>
+      <para />
+     </listitem>
+    </varlistentry>
+   </variablelist>
+  </para>
+ </refsect1>
+ <refsect1 id="package.default.default.humanbaseservice.sethost.throws">
+  &title.throws;
+  <para>
+   <emphasis>throws</emphasis>
+   no exceptions thrown
+  </para>
+ </refsect1>
+ <refsect1 id="package.default.default.humanbaseservice.sethost.note">
+  &title.note;
+  &note.notstatic;
+</refsect1>
+</refentry>

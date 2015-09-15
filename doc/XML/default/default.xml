@@ -1,0 +1,327 @@
+<sect1 id="package.default.default">
+ <title>default</title>
+ <refentry id="package.default.default.humanautoloader-summary">
+  <refnamediv>
+   <refname>
+    Class Summary
+    <classname>HumanAutoloader</classname>
+   </refname>
+   <refpurpose>Autoloader personalizado para a API Client.</refpurpose>
+  </refnamediv>
+  <refsect1>
+   <title>Autoloader personalizado para a API Client.</title>
+   &notdocumented;
+  </refsect1>
+  <refsect1>
+   <title>
+    Class Trees for
+    <classname>HumanAutoloader</classname>
+   </title>
+   <para>
+    <itemizedlist>
+     <listitem>
+      <para>HumanAutoloader</para>
+     </listitem>
+    </itemizedlist>
+   </para>
+  </refsect1>
+ </refentry>
+ &package.default.default.humanautoloader.load;
+&package.default.default.humanautoloader.register;
+ <refentry id="package.default.default.humanbaseservice-summary">
+  <refnamediv>
+   <refname>
+    Class Summary
+    <classname>HumanBaseService</classname>
+   </refname>
+   <refpurpose>
+    Classe abstrata com a responsabilidade de disponibilizar recursos  de
+    comunica&Atilde;&sect;&Atilde;&pound;o com o server API
+    gen&Atilde;&copy;ricos.
+</refpurpose>
+  </refnamediv>
+  <refsect1>
+   <title>
+    Classe abstrata com a responsabilidade de disponibilizar recursos  de
+    comunica&Atilde;&sect;&Atilde;&pound;o com o server API
+    gen&Atilde;&copy;ricos.
+</title>
+   &notdocumented;
+  </refsect1>
+  <refsect1>
+   <title>
+    Class Trees for
+    <classname>HumanBaseService</classname>
+   </title>
+   <para>
+    <itemizedlist>
+     <listitem>
+      <para>HumanBaseService</para>
+     </listitem>
+    </itemizedlist>
+   </para>
+   <para>
+    <table>
+     <title>
+      Classes that extend
+      <classname>HumanBaseService</classname>
+     </title>
+     <tgroup cols="2">
+      <thead>
+       <row>
+        <entry>Class</entry>
+        <entry>Summary</entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>
+         <link linkend="package.default.default.humanmultiplesend-summary">HumanMultipleSend</link>
+        </entry>
+        <entry>Classe responsavel por manipular envio de mensagens multiplas para o gateway</entry>
+       </row>
+      </tbody>
+     </tgroup>
+    </table>
+   </para>
+  </refsect1>
+ </refentry>
+ &package.default.default.humanbaseservice.--construct;
+&package.default.default.humanbaseservice.getaccount;
+&package.default.default.humanbaseservice.gethost;
+&package.default.default.humanbaseservice.getpassword;
+&package.default.default.humanbaseservice.geturi;
+&package.default.default.humanbaseservice.send;
+&package.default.default.humanbaseservice.sethost;
+&package.default.default.humanbaseservice.seturi;
+ <refentry id="package.default.default.humanconnectionhelper-summary">
+  <refnamediv>
+   <refname>
+    Class Summary
+    <classname>HumanConnectionHelper</classname>
+   </refname>
+   <refpurpose>Utilitarios para conexao com servidores.</refpurpose>
+  </refnamediv>
+  <refsect1>
+   <title>Utilitarios para conexao com servidores.</title>
+   &notdocumented;
+  </refsect1>
+  <refsect1>
+   <title>
+    Class Trees for
+    <classname>HumanConnectionHelper</classname>
+   </title>
+   <para>
+    <itemizedlist>
+     <listitem>
+      <para>HumanConnectionHelper</para>
+     </listitem>
+    </itemizedlist>
+   </para>
+  </refsect1>
+ </refentry>
+ &package.default.default.humanconnectionhelper.connectservice;
+&package.default.default.humanconnectionhelper.getresponse;
+ <refentry id="package.default.default.humanhttphelper-summary">
+  <refnamediv>
+   <refname>
+    Class Summary
+    <classname>HumanHTTPHelper</classname>
+   </refname>
+   <refpurpose>
+    Helper com a responsabilidade de disponibilizar utilitarios  de recurso
+    http.
+</refpurpose>
+  </refnamediv>
+  <refsect1>
+   <title>
+    Helper com a responsabilidade de disponibilizar utilitarios  de recurso
+    http.
+</title>
+   &notdocumented;
+  </refsect1>
+  <refsect1>
+   <title>
+    Class Trees for
+    <classname>HumanHTTPHelper</classname>
+   </title>
+   <para>
+    <itemizedlist>
+     <listitem>
+      <para>HumanHTTPHelper</para>
+     </listitem>
+    </itemizedlist>
+   </para>
+  </refsect1>
+ </refentry>
+ &package.default.default.humanhttphelper.formatrequest;
+ <refentry id="package.default.default.humanmultiplesend-summary">
+  <refnamediv>
+   <refname>
+    Class Summary
+    <classname>HumanMultipleSend</classname>
+   </refname>
+   <refpurpose>
+    Classe responsavel por manipular envio de mensagens multiplas para o
+    gateway
+</refpurpose>
+  </refnamediv>
+  <refsect1>
+   <title>
+    Classe responsavel por manipular envio de mensagens multiplas para o
+    gateway
+</title>
+   &notdocumented;
+  </refsect1>
+  <refsect1>
+   <title>
+    Class Trees for
+    <classname>HumanMultipleSend</classname>
+   </title>
+   <para>
+    <itemizedlist>
+     <listitem>
+      <para>
+       <link linkend="package.default.default.humanbaseservice-summary">
+        <classname>HumanBaseService</classname>
+       </link>
+       <itemizedlist>
+        <listitem>
+         <para>HumanMultipleSend</para>
+        </listitem>
+       </itemizedlist>
+      </para>
+     </listitem>
+    </itemizedlist>
+   </para>
+   <para>
+    <classname>HumanMultipleSend</classname>
+    Inherited Methods
+   </para>
+   <para>
+    <table>
+     <title>
+      Inherited from
+      <link linkend="package.default.default.humanbaseservice-summary">
+       <classname>HumanBaseService</classname>
+      </link>
+     </title>
+     <tgroup cols="2">
+      <thead>
+       <row>
+        <entry>Method Name</entry>
+        <entry>Summary</entry>
+       </row>
+      </thead>
+      <tbody>
+       <row>
+        <entry>
+         Constructor
+         <link linkend="package.default.default.humanbaseservice.--construct">
+          <function>HumanBaseService::__construct</function>
+         </link>
+        </entry>
+        <entry>&notdocumented;</entry>
+       </row>
+       <row>
+        <entry>
+         <link linkend="package.default.default.humanbaseservice.getaccount">
+          <function>HumanBaseService::getAccount</function>
+         </link>
+        </entry>
+        <entry>&notdocumented;</entry>
+       </row>
+       <row>
+        <entry>
+         <link linkend="package.default.default.humanbaseservice.gethost">
+          <function>HumanBaseService::getHost</function>
+         </link>
+        </entry>
+        <entry>&notdocumented;</entry>
+       </row>
+       <row>
+        <entry>
+         <link linkend="package.default.default.humanbaseservice.getpassword">
+          <function>HumanBaseService::getPassword</function>
+         </link>
+        </entry>
+        <entry>&notdocumented;</entry>
+       </row>
+       <row>
+        <entry>
+         <link linkend="package.default.default.humanbaseservice.geturi">
+          <function>HumanBaseService::getUri</function>
+         </link>
+        </entry>
+        <entry>&notdocumented;</entry>
+       </row>
+       <row>
+        <entry>
+         <link linkend="package.default.default.humanbaseservice.send">
+          <function>HumanBaseService::send</function>
+         </link>
+        </entry>
+        <entry>M&Atilde;&copy;todo preparado para envio de mensagem</entry>
+       </row>
+       <row>
+        <entry>
+         <link linkend="package.default.default.humanbaseservice.sethost">
+          <function>HumanBaseService::setHost</function>
+         </link>
+        </entry>
+        <entry>&notdocumented;</entry>
+       </row>
+       <row>
+        <entry>
+         <link linkend="package.default.default.humanbaseservice.seturi">
+          <function>HumanBaseService::setUri</function>
+         </link>
+        </entry>
+        <entry>&notdocumented;</entry>
+       </row>
+      </tbody>
+     </tgroup>
+    </table>
+   </para>
+  </refsect1>
+ </refentry>
+ &package.default.default.humanmultiplesend.--construct;
+&package.default.default.humanmultiplesend.sendmultiplefilecsv;
+&package.default.default.humanmultiplesend.sendmultiplelist;
+ <refentry id="package.default.default.ihumanbaseservice-summary">
+  <refnamediv>
+   <refname>
+    Class Summary
+    <classname>IHumanBaseService</classname>
+   </refname>
+   <refpurpose>
+    Interface de implementa&Atilde;&sect;&Atilde;&pound;o para a base de
+    servi&Atilde;&sect;os de comunica&Atilde;&sect;&Atilde;&pound;o  com o
+    server API
+</refpurpose>
+  </refnamediv>
+  <refsect1>
+   <title>
+    Interface de implementa&Atilde;&sect;&Atilde;&pound;o para a base de
+    servi&Atilde;&sect;os de comunica&Atilde;&sect;&Atilde;&pound;o  com o
+    server API
+</title>
+   &notdocumented;
+  </refsect1>
+  <refsect1>
+   <title>
+    Class Trees for
+    <classname>IHumanBaseService</classname>
+   </title>
+   <para>
+    <itemizedlist>
+     <listitem>
+      <para>IHumanBaseService</para>
+     </listitem>
+    </itemizedlist>
+   </para>
+  </refsect1>
+ </refentry>
+ &package.default.default.ihumanbaseservice.send;
+&package.default.default.constants;
+</sect1>

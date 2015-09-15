@@ -1,0 +1,35 @@
+<refentry id="package.default.default.humanbaseservice.getaccount">
+ <refnamediv>
+  <refname>
+   <function>HumanBaseService::getAccount</function>
+  </refname>
+  <refpurpose>getAccount</refpurpose>
+ </refnamediv>
+ <refsynopsisdiv>
+  <funcsynopsis>
+   <funcsynopsisinfo>require_once &apos;/human_gateway_client_api/service/base/HumanBaseService.php&apos;;</funcsynopsisinfo>
+   <funcprototype>
+    <funcdef>
+     void
+     <function>HumanBaseService::getAccount</function>
+    </funcdef>
+    <paramdef />
+   </funcprototype>
+  </funcsynopsis>
+ </refsynopsisdiv>
+ <refsect1 id="package.default.default.humanbaseservice.getaccount.desc">
+  &title.desc;
+  &notdocumented;
+</refsect1>
+ <refsect1 id="package.default.default.humanbaseservice.getaccount.throws">
+  &title.throws;
+  <para>
+   <emphasis>throws</emphasis>
+   no exceptions thrown
+  </para>
+ </refsect1>
+ <refsect1 id="package.default.default.humanbaseservice.getaccount.note">
+  &title.note;
+  &note.notstatic;
+</refsect1>
+</refentry>

@@ -1,0 +1,11 @@
+{
+    "name": "zenvia/zenvia-sms-fuelphp",
+    "type": "library",
+    "description": "Zenvia API - fuelphp",
+    "autoload": {
+        "psr-0": { 
+		"Zenvia\\": ["classes/"]
+		}
+    }
+}
+

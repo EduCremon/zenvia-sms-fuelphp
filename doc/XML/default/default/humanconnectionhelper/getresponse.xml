@@ -1,0 +1,54 @@
+<refentry id="package.default.default.humanconnectionhelper.getresponse">
+ <refnamediv>
+  <refname>
+   <function>HumanConnectionHelper::getResponse</function>
+  </refname>
+  <refpurpose>Retorna o response do socket</refpurpose>
+ </refnamediv>
+ <refsynopsisdiv>
+  <funcsynopsis>
+   <funcsynopsisinfo>require_once &apos;/human_gateway_client_api/util/HumanConnectionHelper.php&apos;;</funcsynopsisinfo>
+   <funcprototype>
+    <funcdef>
+     string
+     <function>HumanConnectionHelper::getResponse</function>
+    </funcdef>
+    <paramdef>
+     resource
+     <parameter>$sock</parameter>
+    </paramdef>
+   </funcprototype>
+  </funcsynopsis>
+ </refsynopsisdiv>
+ <refsect1 id="package.default.default.humanconnectionhelper.getresponse.desc">
+  &title.desc;
+  &notdocumented;
+</refsect1>
+ <refsect1 id="package.default.default.humanconnectionhelper.getresponse.param">
+  &title.param;
+  <para>
+   <variablelist>
+    <varlistentry>
+     <term>
+      &type.resource;
+      <parameter>$sock</parameter>
+     </term>
+     <listitem>
+      <para />
+     </listitem>
+    </varlistentry>
+   </variablelist>
+  </para>
+ </refsect1>
+ <refsect1 id="package.default.default.humanconnectionhelper.getresponse.throws">
+  &title.throws;
+  <para>
+   <emphasis>throws</emphasis>
+   no exceptions thrown
+  </para>
+ </refsect1>
+ <refsect1 id="package.default.default.humanconnectionhelper.getresponse.note">
+  &title.note;
+  &note.notstatic;
+</refsect1>
+</refentry>

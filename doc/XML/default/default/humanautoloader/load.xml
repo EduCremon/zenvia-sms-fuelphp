@@ -1,0 +1,53 @@
+<refentry id="package.default.default.humanautoloader.load">
+ <refnamediv>
+  <refname>
+   <function>HumanAutoloader::load</function>
+  </refname>
+  <refpurpose>load</refpurpose>
+ </refnamediv>
+ <refsynopsisdiv>
+  <funcsynopsis>
+   <funcsynopsisinfo>require_once &apos;/human_gateway_client_api/util/HumanAutoloader.php&apos;;</funcsynopsisinfo>
+   <funcprototype>
+    <funcdef>
+     void
+     <function>HumanAutoloader::load</function>
+    </funcdef>
+    <paramdef>
+     <parameter>$pObjectName</parameter>
+    </paramdef>
+   </funcprototype>
+  </funcsynopsis>
+ </refsynopsisdiv>
+ <refsect1 id="package.default.default.humanautoloader.load.desc">
+  &title.desc;
+  &notdocumented;
+</refsect1>
+ <refsect1 id="package.default.default.humanautoloader.load.param">
+  &title.param;
+  <para>
+   <variablelist>
+    <varlistentry>
+     <term>
+      <type />
+      <parameter>$pObjectName</parameter>
+     </term>
+     <listitem>
+      <para />
+     </listitem>
+    </varlistentry>
+   </variablelist>
+  </para>
+ </refsect1>
+ <refsect1 id="package.default.default.humanautoloader.load.throws">
+  &title.throws;
+  <para>
+   <emphasis>throws</emphasis>
+   no exceptions thrown
+  </para>
+ </refsect1>
+ <refsect1 id="package.default.default.humanautoloader.load.note">
+  &title.note;
+  &note.notstatic;
+</refsect1>
+</refentry>

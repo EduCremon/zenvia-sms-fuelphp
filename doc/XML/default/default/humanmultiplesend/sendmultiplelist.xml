@@ -1,0 +1,89 @@
+<refentry id="package.default.default.humanmultiplesend.sendmultiplelist">
+ <refnamediv>
+  <refname>
+   <function>HumanMultipleSend::sendMultipleList</function>
+  </refname>
+  <refpurpose>
+   Fun&Atilde;&sect;&Atilde;&pound;o para enviar parametros por HTTP/POST
+   utilizando um list.
+</refpurpose>
+ </refnamediv>
+ <refsynopsisdiv>
+  <funcsynopsis>
+   <funcsynopsisinfo>require_once &apos;/human_gateway_client_api/service/HumanMultipleSend.php&apos;;</funcsynopsisinfo>
+   <funcprototype>
+    <funcdef>
+     string
+     <function>HumanMultipleSend::sendMultipleList</function>
+    </funcdef>
+    <paramdef>
+     char
+     <parameter>$type</parameter>
+    </paramdef>
+    <paramdef>
+     string
+     <parameter>$msgList</parameter>
+    </paramdef>
+    <paramdef>
+     integer
+     <parameter>
+      <optional>$callbackOption = self::CALLBACK_INACTIVE</optional>
+     </parameter>
+    </paramdef>
+   </funcprototype>
+  </funcsynopsis>
+ </refsynopsisdiv>
+ <refsect1 id="package.default.default.humanmultiplesend.sendmultiplelist.desc">
+  &title.desc;
+  &notdocumented;
+</refsect1>
+ <refsect1 id="package.default.default.humanmultiplesend.sendmultiplelist.param">
+  &title.param;
+  <para>
+   <variablelist>
+    <varlistentry>
+     <term>
+      <type>char</type>
+      <parameter>$type</parameter>
+     </term>
+     <listitem>
+      <para />
+     </listitem>
+    </varlistentry>
+   </variablelist>
+   <variablelist>
+    <varlistentry>
+     <term>
+      &type.string;
+      <parameter>$msgList</parameter>
+     </term>
+     <listitem>
+      <para />
+     </listitem>
+    </varlistentry>
+   </variablelist>
+   <variablelist>
+    <varlistentry>
+     <term>
+      &type.int;
+      <parameter>$callbackOption</parameter>
+     </term>
+     <listitem>
+      <para>(0, 1, 2)</para>
+     </listitem>
+    </varlistentry>
+   </variablelist>
+  </para>
+ </refsect1>
+ <refsect1 id="package.default.default.humanmultiplesend.sendmultiplelist.throws">
+  &title.throws;
+  <para>
+   <emphasis>throws</emphasis>
+   no exceptions thrown
+  </para>
+ </refsect1>
+ <refsect1 id="package.default.default.humanmultiplesend.sendmultiplelist.note">
+  &title.note;
+  &note.notstatic;
+</refsect1>
+</refentry>

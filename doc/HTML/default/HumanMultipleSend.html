@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class HumanMultipleSend</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class HumanMultipleSend</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+											<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+						
+			</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Classe responsavel por manipular envio de mensagens multiplas para o gateway</p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Tiago</li>
+				<li><span class="field">version:</span> 1.0</li>
+				<li><span class="field">since:</span> 05/05/2011</li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_human_gateway_client_api---service---HumanMultipleSend.php.html">/human_gateway_client_api/service/HumanMultipleSend.php</a> (line <span class="field">10</span>)
+		</p>
+		
+				
+		<pre><a href="../default/HumanBaseService.html">HumanBaseService</a>
+   |
+   --HumanMultipleSend</pre>
+	
+			</div>
+</div>
+
+
+	<a name="sec-const-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constant Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Constants</span> (<a href="#sec-consts">details</a>)
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<div class="const-summary">
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#CALLBACK_FINAL_STATUS" title="details" class="const-name">CALLBACK_FINAL_STATUS</a> = 					<span class="var-type"> 1</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#CALLBACK_INACTIVE" title="details" class="const-name">CALLBACK_INACTIVE</a> = 					<span class="var-type"> 0</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#CALLBACK_INTERMEDIARY_STATUS" title="details" class="const-name">CALLBACK_INTERMEDIARY_STATUS</a> = 					<span class="var-type"> 2</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#TYPE_A" title="details" class="const-name">TYPE_A</a> = 					<span class="var-type"> 'A'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#TYPE_B" title="details" class="const-name">TYPE_B</a> = 					<span class="var-type"> 'B'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#TYPE_C" title="details" class="const-name">TYPE_C</a> = 					<span class="var-type"> 'C'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#TYPE_D" title="details" class="const-name">TYPE_D</a> = 					<span class="var-type"> 'D'</span>
+
+				</div>
+								<div class="const-title">
+					<img src="../media/images/Constant.png" alt=" " />
+					<a href="#TYPE_E" title="details" class="const-name">TYPE_E</a> = 					<span class="var-type"> 'E'</span>
+
+				</div>
+							</div>
+		</div>
+	</div>
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+									<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																												
+												<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#sendMultipleFileCSV" title="details" class="method-name">sendMultipleFileCSV</a>
+											(<span class="var-type">char</span>&nbsp;<span class="var-name">$type</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$pathToFile</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$callbackOption</span> = <span class="var-default">self::CALLBACK_INACTIVE</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">string</span>
+										<a href="#sendMultipleList" title="details" class="method-name">sendMultipleList</a>
+											(<span class="var-type">char</span>&nbsp;<span class="var-name">$type</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$msgList</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$callbackOption</span> = <span class="var-default">self::CALLBACK_INACTIVE</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">HumanMultipleSend</span>
+										<a href="#__construct" title="details" class="method-name">__construct</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$account</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$password</span>)
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-const-summary">Constants</a> (<a href="#sec-consts">details</a>)
+							
+										<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+<a name="methodsendMultipleFileCSV" id="sendMultipleFileCSV"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">sendMultipleFileCSV</span> (line <span class="line-number">84</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Funcao para enviar parametros por HTTP/POST utilizando um arquivo .csv local.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			sendMultipleFileCSV
+		</span>
+					(<span class="var-type">char</span>&nbsp;<span class="var-name">$type</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$pathToFile</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$callbackOption</span> = <span class="var-default">self::CALLBACK_INACTIVE</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">char</span>
+				<span class="var-name">$type</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$pathToFile</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$callbackOption</span><span class="var-description">: (0, 1, 2)</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsendMultipleList" id="sendMultipleList"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">sendMultipleList</span> (line <span class="line-number">104</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Função para enviar parametros por HTTP/POST utilizando um list.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			sendMultipleList
+		</span>
+					(<span class="var-type">char</span>&nbsp;<span class="var-name">$type</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$msgList</span>, [<span class="var-type">integer</span>&nbsp;<span class="var-name">$callbackOption</span> = <span class="var-default">self::CALLBACK_INACTIVE</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">char</span>
+				<span class="var-name">$type</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$msgList</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$callbackOption</span><span class="var-description">: (0, 1, 2)</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="method__construct" id="__construct"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number">70</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">HumanMultipleSend</span>
+		<span class="method-name">
+			__construct
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$account</span>, <span class="var-type"></span>&nbsp;<span class="var-name">$password</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$account</span>			</li>
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$password</span>			</li>
+				</ul>
+		
+			<hr class="separator" />
+		<div class="notes">Redefinition of:</div>
+		<dl>
+			<dt><a href="../default/HumanBaseService.html#method__construct">HumanBaseService::__construct()</a></dt>
+					</dl>
+			
+	</div>
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../default/HumanBaseService.html">HumanBaseService</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../default/HumanBaseService.html#method__construct">HumanBaseService::__construct()</a></span><br>
+													<span class="method-name"><a href="../default/HumanBaseService.html#methodgetAccount">HumanBaseService::getAccount()</a></span><br>
+													<span class="method-name"><a href="../default/HumanBaseService.html#methodgetHost">HumanBaseService::getHost()</a></span><br>
+													<span class="method-name"><a href="../default/HumanBaseService.html#methodgetPassword">HumanBaseService::getPassword()</a></span><br>
+													<span class="method-name"><a href="../default/HumanBaseService.html#methodgetUri">HumanBaseService::getUri()</a></span><br>
+													<span class="method-name"><a href="../default/HumanBaseService.html#methodsend">HumanBaseService::send()</a></span><br>
+													<span class="method-name"><a href="../default/HumanBaseService.html#methodsetHost">HumanBaseService::setHost()</a></span><br>
+													<span class="method-name"><a href="../default/HumanBaseService.html#methodsetUri">HumanBaseService::setUri()</a></span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+	<a name="sec-consts"></a>
+	<div class="info-box">
+		<div class="info-box-title">Class Constants</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Constants</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="constCALLBACK_FINAL_STATUS" id="CALLBACK_FINAL_STATUS"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">CALLBACK_FINAL_STATUS</span>
+			 = <span class="const-default"> 1</span>
+			(line <span class="line-number">62</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Retorno do callback, somente retorno de status final da mensagem</p>
+	
+	
+</div>
+<a name="constCALLBACK_INACTIVE" id="CALLBACK_INACTIVE"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">CALLBACK_INACTIVE</span>
+			 = <span class="const-default"> 0</span>
+			(line <span class="line-number">56</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Retorno do callback, retorno inativo</p>
+	
+	
+</div>
+<a name="constCALLBACK_INTERMEDIARY_STATUS" id="CALLBACK_INTERMEDIARY_STATUS"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">CALLBACK_INTERMEDIARY_STATUS</span>
+			 = <span class="const-default"> 2</span>
+			(line <span class="line-number">68</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Retorno do callback, retorno de status intermediário e final da mensagem</p>
+	
+	
+</div>
+<a name="constTYPE_A" id="TYPE_A"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">TYPE_A</span>
+			 = <span class="const-default"> 'A'</span>
+			(line <span class="line-number">18</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Layout de lista ou arquivo tipo &quot;A&quot;:  to;msg</p>
+	
+	
+</div>
+<a name="constTYPE_B" id="TYPE_B"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">TYPE_B</span>
+			 = <span class="const-default"> 'B'</span>
+			(line <span class="line-number">26</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Layout de lista ou arquivo tipo &quot;B&quot;:  to;msg;from</p>
+	
+	
+</div>
+<a name="constTYPE_C" id="TYPE_C"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">TYPE_C</span>
+			 = <span class="const-default"> 'C'</span>
+			(line <span class="line-number">34</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Layout de lista ou arquivo tipo &quot;C&quot;:  to;msg;id</p>
+	
+	
+</div>
+<a name="constTYPE_D" id="TYPE_D"><!-- --></A>
+<div class="oddrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">TYPE_D</span>
+			 = <span class="const-default"> 'D'</span>
+			(line <span class="line-number">42</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Layout de lista ou arquivo tipo &quot;D&quot;:  to;msg;id;from</p>
+	
+	
+</div>
+<a name="constTYPE_E" id="TYPE_E"><!-- --></A>
+<div class="evenrow">
+
+	<div class="const-header">
+		<img src="../media/images/Variable.png" />
+		<span class="const-title">
+			<span class="const-name">TYPE_E</span>
+			 = <span class="const-default"> 'E'</span>
+			(line <span class="line-number">50</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Layout de lista ou arquivo tipo &quot;E&quot;:  to;msg;id;from;schedule</p>
+	
+	
+</div>
+							<h4>Inherited Constants</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../default/HumanBaseService.html">HumanBaseService</a></span></p>
+					<blockquote>
+													<img src="../media/images/Variable.png" />
+							<span class="const-title">
+								<span class="const-name"><a href="../default/HumanBaseService.html#constURI_SEND">HumanBaseService::URI_SEND</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+
+	<p class="notes" id="credit">
+		Documentation generated on Mon, 16 May 2011 16:25:40 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

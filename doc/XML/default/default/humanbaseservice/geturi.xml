@@ -1,0 +1,35 @@
+<refentry id="package.default.default.humanbaseservice.geturi">
+ <refnamediv>
+  <refname>
+   <function>HumanBaseService::getUri</function>
+  </refname>
+  <refpurpose>getUri</refpurpose>
+ </refnamediv>
+ <refsynopsisdiv>
+  <funcsynopsis>
+   <funcsynopsisinfo>require_once &apos;/human_gateway_client_api/service/base/HumanBaseService.php&apos;;</funcsynopsisinfo>
+   <funcprototype>
+    <funcdef>
+     void
+     <function>HumanBaseService::getUri</function>
+    </funcdef>
+    <paramdef />
+   </funcprototype>
+  </funcsynopsis>
+ </refsynopsisdiv>
+ <refsect1 id="package.default.default.humanbaseservice.geturi.desc">
+  &title.desc;
+  &notdocumented;
+</refsect1>
+ <refsect1 id="package.default.default.humanbaseservice.geturi.throws">
+  &title.throws;
+  <para>
+   <emphasis>throws</emphasis>
+   no exceptions thrown
+  </para>
+ </refsect1>
+ <refsect1 id="package.default.default.humanbaseservice.geturi.note">
+  &title.note;
+  &note.notstatic;
+</refsect1>
+</refentry>

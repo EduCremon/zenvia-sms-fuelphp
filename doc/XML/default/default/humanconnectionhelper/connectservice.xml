@@ -1,0 +1,61 @@
+<refentry id="package.default.default.humanconnectionhelper.connectservice">
+ <refnamediv>
+  <refname>
+   <function>HumanConnectionHelper::connectService</function>
+  </refname>
+  <refpurpose>Cria e testa uma conex&Atilde;&pound;o com um servidor</refpurpose>
+ </refnamediv>
+ <refsynopsisdiv>
+  <funcsynopsis>
+   <funcsynopsisinfo>require_once &apos;/human_gateway_client_api/util/HumanConnectionHelper.php&apos;;</funcsynopsisinfo>
+   <funcprototype>
+    <funcdef>
+     resource
+     <function>HumanConnectionHelper::connectService</function>
+    </funcdef>
+    <paramdef>
+     string
+     <parameter>$host</parameter>
+    </paramdef>
+   </funcprototype>
+  </funcsynopsis>
+ </refsynopsisdiv>
+ <refsect1 id="package.default.default.humanconnectionhelper.connectservice.desc">
+  &title.desc;
+  &notdocumented;
+</refsect1>
+ <refsect1 id="package.default.default.humanconnectionhelper.connectservice.param">
+  &title.param;
+  <para>
+   <variablelist>
+    <varlistentry>
+     <term>
+      &type.string;
+      <parameter>$host</parameter>
+     </term>
+     <listitem>
+      <para />
+     </listitem>
+    </varlistentry>
+   </variablelist>
+  </para>
+ </refsect1>
+ <refsect1 id="package.default.default.humanconnectionhelper.connectservice.returns">
+  &title.returns;
+  <para>
+   <emphasis>returns</emphasis>
+   fsockopen.
+  </para>
+ </refsect1>
+ <refsect1 id="package.default.default.humanconnectionhelper.connectservice.throws">
+  &title.throws;
+  <para>
+   <emphasis>throws</emphasis>
+   RuntimeException
+  </para>
+ </refsect1>
+ <refsect1 id="package.default.default.humanconnectionhelper.connectservice.note">
+  &title.note;
+  &note.notstatic;
+</refsect1>
+</refentry>

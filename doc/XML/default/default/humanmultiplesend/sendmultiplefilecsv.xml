@@ -1,0 +1,89 @@
+<refentry id="package.default.default.humanmultiplesend.sendmultiplefilecsv">
+ <refnamediv>
+  <refname>
+   <function>HumanMultipleSend::sendMultipleFileCSV</function>
+  </refname>
+  <refpurpose>
+   Funcao para enviar parametros por HTTP/POST utilizando um arquivo .csv
+   local.
+</refpurpose>
+ </refnamediv>
+ <refsynopsisdiv>
+  <funcsynopsis>
+   <funcsynopsisinfo>require_once &apos;/human_gateway_client_api/service/HumanMultipleSend.php&apos;;</funcsynopsisinfo>
+   <funcprototype>
+    <funcdef>
+     string
+     <function>HumanMultipleSend::sendMultipleFileCSV</function>
+    </funcdef>
+    <paramdef>
+     char
+     <parameter>$type</parameter>
+    </paramdef>
+    <paramdef>
+     string
+     <parameter>$pathToFile</parameter>
+    </paramdef>
+    <paramdef>
+     integer
+     <parameter>
+      <optional>$callbackOption = self::CALLBACK_INACTIVE</optional>
+     </parameter>
+    </paramdef>
+   </funcprototype>
+  </funcsynopsis>
+ </refsynopsisdiv>
+ <refsect1 id="package.default.default.humanmultiplesend.sendmultiplefilecsv.desc">
+  &title.desc;
+  &notdocumented;
+</refsect1>
+ <refsect1 id="package.default.default.humanmultiplesend.sendmultiplefilecsv.param">
+  &title.param;
+  <para>
+   <variablelist>
+    <varlistentry>
+     <term>
+      <type>char</type>
+      <parameter>$type</parameter>
+     </term>
+     <listitem>
+      <para />
+     </listitem>
+    </varlistentry>
+   </variablelist>
+   <variablelist>
+    <varlistentry>
+     <term>
+      &type.string;
+      <parameter>$pathToFile</parameter>
+     </term>
+     <listitem>
+      <para />
+     </listitem>
+    </varlistentry>
+   </variablelist>
+   <variablelist>
+    <varlistentry>
+     <term>
+      &type.int;
+      <parameter>$callbackOption</parameter>
+     </term>
+     <listitem>
+      <para>(0, 1, 2)</para>
+     </listitem>
+    </varlistentry>
+   </variablelist>
+  </para>
+ </refsect1>
+ <refsect1 id="package.default.default.humanmultiplesend.sendmultiplefilecsv.throws">
+  &title.throws;
+  <para>
+   <emphasis>throws</emphasis>
+   no exceptions thrown
+  </para>
+ </refsect1>
+ <refsect1 id="package.default.default.humanmultiplesend.sendmultiplefilecsv.note">
+  &title.note;
+  &note.notstatic;
+</refsect1>
+</refentry>

@@ -1,0 +1,68 @@
+<refentry id="package.default.default.humanbaseservice.--construct">
+ <refnamediv>
+  <refname>
+   constructor
+   <function>HumanBaseService::__construct</function>
+  </refname>
+  <refpurpose>__construct</refpurpose>
+ </refnamediv>
+ <refsynopsisdiv>
+  <funcsynopsis>
+   <funcsynopsisinfo>require_once &apos;/human_gateway_client_api/service/base/HumanBaseService.php&apos;;</funcsynopsisinfo>
+   <funcprototype>
+    <funcdef>
+     void      constructor
+     <function>HumanBaseService::__construct</function>
+    </funcdef>
+    <paramdef>
+     <parameter>$account</parameter>
+    </paramdef>
+    <paramdef>
+     <parameter>$password</parameter>
+    </paramdef>
+   </funcprototype>
+  </funcsynopsis>
+ </refsynopsisdiv>
+ <refsect1 id="package.default.default.humanbaseservice.--construct.desc">
+  &title.desc;
+  &notdocumented;
+</refsect1>
+ <refsect1 id="package.default.default.humanbaseservice.--construct.param">
+  &title.param;
+  <para>
+   <variablelist>
+    <varlistentry>
+     <term>
+      <type />
+      <parameter>$account</parameter>
+     </term>
+     <listitem>
+      <para />
+     </listitem>
+    </varlistentry>
+   </variablelist>
+   <variablelist>
+    <varlistentry>
+     <term>
+      <type />
+      <parameter>$password</parameter>
+     </term>
+     <listitem>
+      <para />
+     </listitem>
+    </varlistentry>
+   </variablelist>
+  </para>
+ </refsect1>
+ <refsect1 id="package.default.default.humanbaseservice.--construct.throws">
+  &title.throws;
+  <para>
+   <emphasis>throws</emphasis>
+   no exceptions thrown
+  </para>
+ </refsect1>
+ <refsect1 id="package.default.default.humanbaseservice.--construct.note">
+  &title.note;
+  &note.notstatic;
+</refsect1>
+</refentry>

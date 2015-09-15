@@ -1,0 +1,73 @@
+<refentry id="package.default.default.humanbaseservice.send">
+ <refnamediv>
+  <refname>
+   <function>HumanBaseService::send</function>
+  </refname>
+  <refpurpose>M&Atilde;&copy;todo preparado para envio de mensagem</refpurpose>
+ </refnamediv>
+ <refsynopsisdiv>
+  <funcsynopsis>
+   <funcsynopsisinfo>require_once &apos;/human_gateway_client_api/service/base/HumanBaseService.php&apos;;</funcsynopsisinfo>
+   <funcprototype>
+    <funcdef>
+     string
+     <function>HumanBaseService::send</function>
+    </funcdef>
+    <paramdef>
+     array
+     <parameter>
+      <optional>$params = array()</optional>
+     </parameter>
+    </paramdef>
+    <paramdef>
+     string
+     <parameter>
+      <optional>$contentType = self::CONTENT_TYPE_APP_FORM_URLENCODED</optional>
+     </parameter>
+    </paramdef>
+   </funcprototype>
+  </funcsynopsis>
+ </refsynopsisdiv>
+ <refsect1 id="package.default.default.humanbaseservice.send.desc">
+  &title.desc;
+  &notdocumented;
+</refsect1>
+ <refsect1 id="package.default.default.humanbaseservice.send.param">
+  &title.param;
+  <para>
+   <variablelist>
+    <varlistentry>
+     <term>
+      &type.array;
+      <parameter>$params</parameter>
+     </term>
+     <listitem>
+      <para />
+     </listitem>
+    </varlistentry>
+   </variablelist>
+   <variablelist>
+    <varlistentry>
+     <term>
+      &type.string;
+      <parameter>$contentType</parameter>
+     </term>
+     <listitem>
+      <para />
+     </listitem>
+    </varlistentry>
+   </variablelist>
+  </para>
+ </refsect1>
+ <refsect1 id="package.default.default.humanbaseservice.send.throws">
+  &title.throws;
+  <para>
+   <emphasis>throws</emphasis>
+   no exceptions thrown
+  </para>
+ </refsect1>
+ <refsect1 id="package.default.default.humanbaseservice.send.note">
+  &title.note;
+  &note.notstatic;
+</refsect1>
+</refentry>
